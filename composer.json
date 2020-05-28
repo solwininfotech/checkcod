@@ -1,0 +1,22 @@
+{
+    "name": "solwin/checkcod",
+    "description": "Check COD Magento 2 extension provides the facility to check whether COD(Cash On Delivery) is available at a specific zipcode or not on product detail page.",
+    "type": "magento2-module",
+    "version": "1.0.6",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Checkcod\\": ""
+        }
+    }
+}
